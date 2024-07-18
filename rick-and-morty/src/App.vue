@@ -1,17 +1,22 @@
 <template>
   <div id="app">
     <Menu />
-    <!-- O restante do seu código vai aqui -->
-  </div>
+    <card-component />
+</div>
 </template>
+
 
 <script>
 import Menu from './components/Menu.vue'
+import Card from './components/Card.vue'
+
+
 
 export default {
   name: 'App',
   components: {
-    Menu
+    Menu,
+    'card-component': Card
   }
 }
 </script>

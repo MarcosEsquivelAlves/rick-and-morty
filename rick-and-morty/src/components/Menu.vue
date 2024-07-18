@@ -12,6 +12,7 @@
 
   <h1>The Rick and Morty API</h1>
 
+
 </template>
 
 <script>
@@ -23,13 +24,13 @@ export default {
 <style scoped>
 
 body {
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: #000;
+   margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000;
 }
 
 nav {
@@ -96,21 +97,20 @@ transition: background-color 0.2s, color 0.2s;
   max-width: 100%;
   width: 450px;
   margin: auto;
-  margin-left: 38%;
-  opacity: 8%;
+  margin-left: 720px;
+  opacity: 5%;
+  margin-top: -12px;
 }
 
-h1 {
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  margin: 0;
-  font-size: 120px;
-  white-space: nowrap;
-  font-family:'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-weight: bold;
-}
-
+h1{
+    position: relative;
+    text-align:center;
+    margin-top: -337px;
+    font-size: 105px;
+    position:relative;
+    font-weight: bold;
+    font-family:'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  }
 
 
 </style>
