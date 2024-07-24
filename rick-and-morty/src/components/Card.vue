@@ -152,7 +152,7 @@
 
         <div class="rede1">
 
-          <a href="https://github.com/afuh/rick-and-morty-api">
+          <a href="https://github.com/MarcosEsquivelAlves/rick-and-morty" target="_blank">
             <img id="img-git" src="../assets/svg/github.png" alt="GitHub">
           </a>
         </div>
@@ -160,13 +160,13 @@
 
         <div class="rede2">
 
-          <a href="https://x.com/i/flow/login?redirect_after_login=%2Frickandmortyapi">
+          <a href="https://x.com/i/flow/login?redirect_after_login=%2Frickandmortyapi" target="_blank">
             <img id="img-twitter" src="../assets/svg/twitter.png" alt="Twitter">
           </a>
         </div>
 
         <div class="rede3">
-          <a href="https://rickandmortyapi.com/support-us">
+          <a href="https://rickandmortyapi.com/support-us" target="_blank">
             <img id="img-coracao" src="../assets/svg/coracao.png" alt="Coração">
           </a>
         </div>
@@ -192,7 +192,7 @@
         </div>
 
         <div class="nameby">
-          <a href="https://github.com/MarcosEsquivelAlves">
+          <a href="https://github.com/MarcosEsquivelAlves" target="_blank">
             <p>Marcos Alves</p>
           </a>
         </div>
