@@ -2,15 +2,22 @@
   <nav>
     <img src="../assets/svg/img.nav.png" alt="Logo">
     <ul>
-      <li><a href="#docs" class="docs">Docs</a></li>
-      <li><a href="#about" class="about">About</a></li>
-      <li><a href="#support" class="button">SUPPORT US</a></li>
+      <li id="doc-1"><a href="https://rickandmortyapi.com/documentation" target="_blank" class="docs">Docs</a></li>
+      <li id="about-1"><a href="https://rickandmortyapi.com/about" target="_blank" class="about">About</a></li>
+      <li id="sup-1"><a href="https://rickandmortyapi.com/support-us" target="_blank" class="button">SUPPORT US</a></li>
     </ul>
   </nav>
 
-  <img id="titulo" src="../assets/svg/titulo.png" alt="">
+  <div class="th1">
+    <img id="titulo" src="../assets/svg/titulo.png" alt="">
+    <h1>The Rick and Morty API</h1>
+  </div>
 
-  <h1>The Rick and Morty API</h1>
+  
+  
+  
+
+  
 
 
 </template>
@@ -23,14 +30,9 @@ export default {
 
 <style scoped>
 
-body {
-   margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: #000;
+::selection{
+  color: orange;
+  background-color: black;
 }
 
 nav {
@@ -40,12 +42,13 @@ nav {
   gap: 10px;
 }
 
+
 img {
   max-width: 100%;
-  width: 107px;
+  width: 96px;
   padding: 0px;
-  margin-left: -10px;
-  margin-top: -5px;
+  margin-left: -9px;
+  margin-top: -20px;
   cursor: pointer;
 }
 
@@ -64,19 +67,37 @@ li {
 a {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: bold;
   text-decoration: none;
-  font-size: 19px;
+  font-size: 18px;
   color: black
+}
+
+#doc-1 {
+  position: relative; 
+  left: 30px;
+  top: -11px;
+}
+
+#about-1 {
+  position: relative; 
+  left: 20px;
+  top: -11px;
+}
+
+#sup-1 {
+  position: relative; 
+  top: -5px;
+  left: 10px;
+
 }
 
 .button {
 border: 1px orange solid;
 border-radius: 9px;
-font-size: 15px;
-padding: 10px 17px 10px 17px;
+font-size: 13px;
+padding: 10px 18px 10px 18px;
 transition: 1s;
 color:black;
 transition: background-color 0.2s, color 0.2s;
-
 }
 
 .button:hover {
@@ -93,23 +114,34 @@ transition: background-color 0.2s, color 0.2s;
   color: orange;
 }
 
+.th1 {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+  min-width: 25%;
+}
+
 #titulo {
-  max-width: 100%;
+  position: relative;
+  left: 14px;
+  top: -1px;
   width: 450px;
-  margin: auto;
-  margin-left: 720px;
   opacity: 5%;
   margin-top: -12px;
+  min-width: 20%;
+  cursor: default;
 }
 
 h1{
-    position: relative;
-    text-align:center;
-    margin-top: -337px;
-    font-size: 105px;
-    position:relative;
-    font-weight: bold;
-    font-family:'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  position: relative;
+  text-align:center;
+  margin-top: -337px;
+  font-size: 100px;
+  position:relative;
+  font-weight: bold;
+  bottom: 13px;
+  font-family:'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-weight: 800;
   }
 
 
