@@ -2,7 +2,7 @@
   <div id="app">
     <Menu />
     <card-component />
-</div>
+  </div>
 </template>
 
 

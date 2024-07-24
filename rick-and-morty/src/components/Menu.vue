@@ -12,14 +12,6 @@
     <img id="titulo" src="../assets/svg/titulo.png" alt="">
     <h1>The Rick and Morty API</h1>
   </div>
-
-  
-  
-  
-
-  
-
-
 </template>
 
 <script>
@@ -29,8 +21,7 @@ export default {
 </script>
 
 <style scoped>
-
-::selection{
+::selection {
   color: orange;
   background-color: black;
 }
@@ -65,52 +56,54 @@ li {
 }
 
 a {
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
   text-decoration: none;
   font-size: 18px;
   color: black
 }
 
 #doc-1 {
-  position: relative; 
+  position: relative;
   left: 30px;
   top: -11px;
 }
 
 #about-1 {
-  position: relative; 
+  position: relative;
   left: 20px;
   top: -11px;
 }
 
 #sup-1 {
-  position: relative; 
+  position: relative;
   top: -5px;
   left: 10px;
 
 }
 
 .button {
-border: 1px orange solid;
-border-radius: 9px;
-font-size: 13px;
-padding: 10px 18px 10px 18px;
-transition: 1s;
-color:black;
-transition: background-color 0.2s, color 0.2s;
+  border: 1px orange solid;
+  border-radius: 9px;
+  font-size: 13px;
+  padding: 10px 18px 10px 18px;
+  transition: 1s;
+  color: black;
+  transition: background-color 0.2s, color 0.2s;
 }
 
 .button:hover {
   background-color: orange;
-  color:white;
+  color: white;
 }
 
-.docs .about{
-  color:orange;
+.docs .about {
+  color: orange;
   transition: color 0.2s;
 }
 
-.docs:hover, .about:hover {
+.docs:hover,
+.about:hover {
   color: orange;
 }
 
@@ -133,16 +126,15 @@ transition: background-color 0.2s, color 0.2s;
   cursor: default;
 }
 
-h1{
+h1 {
   position: relative;
-  text-align:center;
+  text-align: center;
   margin-top: -337px;
   font-size: 100px;
-  position:relative;
+  position: relative;
   font-weight: bold;
   bottom: 13px;
-  font-family:'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-weight: 800;
-  }
-
-
+  font-family: 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  font-weight: 800;
+}
 </style>

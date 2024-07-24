@@ -105,15 +105,15 @@
       </div>
     </div>
   </div>
-  
+
   <footer class="rodape-list">
-      <div class="rodape-todos">
-        <ul class="rodape-items">
-          <li class="rodape-item">CHARACTERS: 826</li>
-          <li class="rodape-item">LOCATIONS: 126</li>
-          <li class="rodape-item">EPISODES: 51</li>
-        </ul>
-    
+    <div class="rodape-todos">
+      <ul class="rodape-items">
+        <li class="rodape-item">CHARACTERS: 826</li>
+        <li class="rodape-item">LOCATIONS: 126</li>
+        <li class="rodape-item">EPISODES: 51</li>
+      </ul>
+
 
       <div class="rodape-bolinha-sv">
         <title>Bolinha</title>
@@ -203,7 +203,7 @@
 
       </div>
     </div>
-    </footer>
+  </footer>
 
 </template>
 
@@ -219,8 +219,6 @@ export default {
 
 
 <style scoped>
-
-
 h2 {
   cursor: pointer;
 }
@@ -262,7 +260,7 @@ h2:hover {
   height: 69.30vh;
   margin-top: 135px;
   margin-left: -9px;
-} 
+}
 
 .container-card {
   display: flex;
@@ -646,10 +644,8 @@ h2 {
   right: 30px;
 }
 
-::selection{
+::selection {
   color: orange;
   background-color: black;
 }
-
-
 </style>
